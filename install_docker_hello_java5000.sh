@@ -12,4 +12,4 @@ sudo apt-get install -y docker-ce
 
 sudo docker pull in28min/hello-world-java:0.0.1.RELEASE
 
-sudo docker run --name sampleapp -p 5000:80 -d nginx:1.17.0
+sudo docker run --name sampleapp -p 5000:80 -d in28min/hello-world-java:0.0.1.RELEASE
